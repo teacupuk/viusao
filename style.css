@@ -1,0 +1,88 @@
+/* Reset and base styling */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #0d0d0d;
+  color: #ffffff;
+}
+
+a {
+  color: #0af;
+  text-decoration: none;
+}
+
+header {
+  background: url('assets/background.jpg') no-repeat center center / cover;
+  padding: 4rem 2rem;
+  text-align: center;
+  color: white;
+  position: relative;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin: 0;
+}
+
+.hero h2 {
+  font-size: 2rem;
+  color: #00bfff;
+  margin: 0.5rem 0;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  color: #ccc;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  list-style: none;
+  padding: 1rem 0;
+  margin: 0;
+  background-color: #000;
+}
+
+nav a {
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+section {
+  padding: 2rem;
+  border-bottom: 1px solid #333;
+}
+
+h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  border-bottom: 2px solid;
+  display: inline-block;
+  padding-bottom: 0.25rem;
+}
+
+#about h3, #projects h3 {
+  color: #00bfff;
+  border-color: #00bfff;
+}
+
+#experience h3, #contact h3 {
+  color: #ff4136;
+  border-color: #ff4136;
+}
+
+ul {
+  list-style: disc;
+  margin-left: 1.5rem;
+}
+
+footer {
+  background: #111;
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.9rem;
+  color: #666;
+}
